@@ -1,0 +1,54 @@
+<mvc:View controllerName="z03000sapui5dm01.controller.home"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <IconTabBar id="contralTabBar"
+            expanded="true" 
+            class="sapUiResponsiveContentPadding">
+            <items>
+                <IconTabFilter id="arrival" text="Arrival">
+                    <Table id="arrivingFlights" items="{/Flights}" growing="true"
+                        growingScrollToLoad="true">
+                        <columns>
+                            <Column id="column01">
+                                <Text id="columnText01" text="Flight ID"></Text>
+                            </Column>
+                            <Column id="column02">
+                                <Text id="columnText02" text="From"></Text>
+                            </Column>
+                            <Column id="column03">
+                                <Text id="columnText03" text="To"></Text>
+                            </Column>
+                            <Column id="column04">
+                                <Text id="columnText04" text="Date"></Text>
+                            </Column>
+                            <Column id="column05">
+                                <Text id="columnText05" text="Time"></Text>
+                            </Column>
+                            <Column id="column06">
+                                <Text id="columnText06" text="Status"></Text>
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem id="columnListItem" type="Navigation"
+                                press="handleItemPress">
+                                <cells>
+                                    <Text id="fieldValue1" text="{flightId}"></Text>
+                                    <Text id="fieldValue2" text="{from}"></Text>
+                                    <Text id="fieldValue3" text="{to}"></Text>
+                                    <Text id="fieldValue4" text="{date}"></Text>
+                                    <Text id="fieldValue5" text="{time}"></Text>
+                                    <Text id="fieldValue6" text="{status}"></Text>
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </IconTabFilter>
+                <IconTabFilter id="departure" text="Departure"
+                    modelContextChange="onTabChange">
+                    <Text id="someText" text="Here you will see departing flight soon!"></Text>
+                </IconTabFilter>
+            </items>
+        </IconTabBar>
+    </Page>
+</mvc:View>
