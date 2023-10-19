@@ -1,0 +1,38 @@
+<mvc:View controllerName="z03000sapui5dm01.controller.detail"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns:f="sap.ui.layout.form"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <content>
+            <VBox id="detailFormBox" class="sapUiSmallMargin">
+                <f:SimpleForm id="flightDetail" title="Flight Detail">
+                    <f:content>
+                        <Label id="label1" text="Flight ID"></Label>
+                        <Text id="fieldValue1" text="{flightId}"></Text>
+                        <Label id="label2" text="From"></Label>
+                        <Text id="fieldValue2" text="{from}"></Text>
+                        <Label id="label3" text="To"></Label>
+                        <Text id="fieldValue3" text="{to}"></Text>
+                        <Label id="label4" text="Date"></Label>
+                        <Text id="fieldValue4" text="{date}"></Text>
+                        <Label id="label5" text="Time"></Label>
+                        <Text id="fieldValue5" text="{time}"></Text>
+                        <Label id="label6" text="Status"></Label>
+                        <Text id="fieldValue6" text="{status}"></Text>
+                        <Label id="label7" text="Planned Arrival"></Label>
+                        <Text id="fieldValue7" text="{  
+                                                        path:'plannedArrival', 
+                                                        type:'sap.ui.model.type.DateTime',
+                                                        formatOptions: {
+                                                            style: 'medium',
+                                                            source: {pattern: 'yyyy-MM-dd\'T\'HH:mm:ss'}
+                                                        }
+                                                    }" />
+                        <Label id="label8" text="Flight Info"></Label>
+                        <Text id="fieldValue8" text="{flightInfo}"></Text>
+                    </f:content>
+                </f:SimpleForm>
+            </VBox>
+        </content>
+    </Page>
+</mvc:View>
