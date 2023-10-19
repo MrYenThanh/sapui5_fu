@@ -1,0 +1,104 @@
+{
+    "Flights": [
+        {
+            "flightId": "1",
+            "from": "New York",
+            "to": "Los Angeles",
+            "date": "2022-10-01",
+            "time": "08:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-01T11:00:00",
+            "flightInfo": "Boeing 737"
+        },
+        {
+            "flightId": "2",
+            "from": "Chicago",
+            "to": "San Francisco",
+            "date": "2022-10-02",
+            "time": "10:00:00",
+            "status": "Delayed",
+            "plannedArrival": "2022-10-02T13:00:00",
+            "flightInfo": "Airbus A320"
+        },
+        {
+            "flightId": "3",
+            "from": "Atlanta",
+            "to": "Miami",
+            "date": "2022-10-03",
+            "time": "12:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-03T15:00:00",
+            "flightInfo": "Boeing 747"
+        },
+        {
+            "flightId": "4",
+            "from": "Los Angeles",
+            "to": "New York",
+            "date": "2022-10-04",
+            "time": "14:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-04T17:00:00",
+            "flightInfo": "Airbus A320"
+        },
+        {
+            "flightId": "5",
+            "from": "San Francisco",
+            "to": "Chicago",
+            "date": "2022-10-05",
+            "time": "16:00:00",
+            "status": "Delayed",
+            "plannedArrival": "2022-10-05T19:00:00",
+            "flightInfo": "Boeing 737"
+        },
+        {
+            "flightId": "6",
+            "from": "Miami",
+            "to": "Atlanta",
+            "date": "2022-10-06",
+            "time": "18:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-06T21:00:00",
+            "flightInfo": "Boeing 747"
+        },
+        {
+            "flightId": "7",
+            "from": "New York",
+            "to": "Chicago",
+            "date": "2022-10-07",
+            "time": "20:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-07T23:00:00",
+            "flightInfo": "Airbus A320"
+        },
+        {
+            "flightId": "8",
+            "from": "Chicago",
+            "to": "Miami",
+            "date": "2022-10-08",
+            "time": "22:00:00",
+            "status": "Delayed",
+            "plannedArrival": "2022-10-09T01:00:00",
+            "flightInfo": "Boeing 737"
+        },
+        {
+            "flightId": "9",
+            "from": "Miami",
+            "to": "Los Angeles",
+            "date": "2022-10-09",
+            "time": "00:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-09T03:00:00",
+            "flightInfo": "Airbus A320"
+        },
+        {
+            "flightId": "10",
+            "from": "Los Angeles",
+            "to": "Atlanta",
+            "date": "2022-10-10",
+            "time": "02:00:00",
+            "status": "On Time",
+            "plannedArrival": "2022-10-10T05:00:00",
+            "flightInfo": "Boeing 747"
+        }
+    ]
+}
