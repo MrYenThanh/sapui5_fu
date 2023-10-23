@@ -1,0 +1,95 @@
+<mvc:View controllerName="z03000unit13dm01.controller.Main"
+    xmlns:mvc="sap.ui.core.mvc" displayBlock="true"
+    xmlns="sap.m">
+    <Page id="page" title="{i18n>title}">
+        <IconTabBar id="contralTabBar"
+            expanded="true" 
+            class="sapUiResponsiveContentPadding">
+            <items>
+                <IconTabFilter id="arrival" text="Arrival">
+                    <Table id="arrivingFlights" items="{/Flights}" growing="true"
+                        growingScrollToLoad="true">
+                        <columns>
+                            <!-- Airline -->
+                            <Column id="column01">
+                                <Text id="columnText01" text="Airline"></Text>
+                            </Column>
+                            <!-- Flight Number -->
+                            <Column id="column02">
+                                <Text id="columnText02" text="Flight Number"></Text>
+                            </Column>
+                            <!-- Date -->
+                            <Column id="column03">
+                                <Text id="columnText03" text="Date"></Text>
+                            </Column>
+                            <!-- Airfare -->
+                            <Column id="column04">
+                                <Text id="columnText04" text="Airfare"></Text>
+                            </Column>
+                            <!-- Plane Type -->
+                            <Column id="column05">
+                                <Text id="columnText05" text="Plane Type"></Text>
+                            </Column>
+                            <!-- Max. capacity econ. -->
+                            <Column id="column06">
+                                <Text id="columnText06" text="Max. capacity econ."></Text>
+                            </Column>
+                            <!-- Occupied econ. -->
+                            <Column id="column07">
+                                <Text id="columnText07" text="Occupied econ."></Text>
+                            </Column>
+                            <!-- Total -->
+                            <Column id="column08">
+                                <Text id="columnText08" text="Total"></Text>
+                            </Column>
+                            <!-- Max. capacity bus. -->
+                            <Column id="column09">
+                                <Text id="columnText09" text="Max. capacity bus."></Text>
+                            </Column>
+                            <!-- Occupied bus. -->
+                            <Column id="column10">
+                                <Text id="columnText10" text="Occupied bus."></Text>
+                            </Column>
+                            <!-- Max. capacity 1st -->
+                            <Column id="column11">
+                                <Text id="columnText11" text="Max. capacity 1st"></Text>
+                            </Column>
+                            <!-- Occupied 1st -->
+                            <Column id="column12">
+                                <Text id="columnText12" text="Occupied 1st"></Text>
+                            </Column>
+                        </columns>
+                        <items>
+                            <ColumnListItem id="columnListItem" type="Navigation"
+                                press="handleItemPress">
+                                <cells>
+                                    <Text id="fieldValue1" text="{Carrid}"></Text>
+                                    <Text id="fieldValue2" text="{Connid}"></Text>
+                                    <Text id="fieldValue3" text="{path:'Fldate',
+                                                                    type: 'sap.ui.model.type.Date',
+                                                                    formatOptions: {
+                                                                        style: 'medium'
+                                                                    }}"></Text>
+                                    <Text id="fieldValue4" text="{Price}"></Text>
+                                    <Text id="fieldValue5" text="{Planetype}"></Text>
+                                    <Text id="fieldValue6" text="{Seatsmax}"></Text>
+                                    <Text id="fieldValue7" text="{Seatsocc}"></Text>
+                                    <!-- <Text id="fieldValue8" text="{Paymentsum}"></Text> -->
+                                    <Text id="fieldValue8" text="{parts:[{path:'Paymentsum'},{path:'Currency'}],
+                                    type: 'sap.ui.model.type.Currency'}"></Text>
+                                    <Text id="fieldValue9" text="{SeatsmaxB}"></Text>
+                                    <Text id="fieldValue10" text="{SeatsoccB}"></Text>
+                                    <Text id="fieldValue11" text="{SeatsmaxF}"></Text>
+                                    <Text id="fieldValue12" text="{SeatsoccF}"></Text>
+                                </cells>
+                            </ColumnListItem>
+                        </items>
+                    </Table>
+                </IconTabFilter>
+                <IconTabFilter id="depart" text="Departure">
+                    <Text id="someText" text="Here you will see departing flight soon!"></Text>
+                </IconTabFilter>
+            </items>
+        </IconTabBar>
+    </Page>
+</mvc:View>
