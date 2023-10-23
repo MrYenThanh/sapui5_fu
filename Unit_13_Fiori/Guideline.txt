@@ -3,6 +3,6 @@ https://s72lp1.ucc.in.tum.de:8100/sap/bc/ui2/flp?sap-client=303&sap-language=ENa
 
 Tcode	Description
 /UI2/FLP	Launch SAP FIORI Launchpad
-/UI2/FLPD_CUST	Launch SAP FIORI Launchpad designer for customization ( client- specific )
-/UI2/FLPD_CONF	Launch SAP FIORI Launchpad designer for configuration ( cross-client )
+DO NOT USE: /UI2/FLPD_CUST	Launch SAP FIORI Launchpad designer for customization ( client- specific )
+USE THIS:   /UI2/FLPD_CONF	Launch SAP FIORI Launchpad designer for configuration ( cross-client )
 
