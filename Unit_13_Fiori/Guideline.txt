@@ -1,0 +1,3 @@
+Link to Fiori Launchpad
+https://s72lp1.ucc.in.tum.de:8100/sap/bc/ui2/flp?sap-client=303&sap-language=ENabout:blank#Shell-home
+
