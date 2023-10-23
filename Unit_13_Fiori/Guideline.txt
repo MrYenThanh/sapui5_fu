@@ -1,3 +1,8 @@
 Link to Fiori Launchpad
 https://s72lp1.ucc.in.tum.de:8100/sap/bc/ui2/flp?sap-client=303&sap-language=ENabout:blank#Shell-home
 
+Tcode	Description
+/UI2/FLP	Launch SAP FIORI Launchpad
+/UI2/FLPD_CUST	Launch SAP FIORI Launchpad designer for customization ( client- specific )
+/UI2/FLPD_CONF	Launch SAP FIORI Launchpad designer for configuration ( cross-client )
+
