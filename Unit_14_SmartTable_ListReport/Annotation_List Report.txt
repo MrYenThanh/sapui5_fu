@@ -1,0 +1,2 @@
+How to use annotations for List Report
+https://sapui5.hana.ondemand.com/sdk/#/topic/1cf5c7f5b81c4cb3ba98fd14314d4504
