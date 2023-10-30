@@ -1,0 +1,7 @@
+Nhóm 4 
+Trương Lê Minh (leader)
+Đặng Lê Minh Quang
+Ngô Thị Kim Loan
+Nguyễn Hoàng Việt
+Đề tài: Quản lý tài sản shop bán phụ kiện điện thoại
+Kỹ thuật: SAP Fiori
